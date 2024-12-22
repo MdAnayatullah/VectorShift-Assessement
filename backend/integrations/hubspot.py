@@ -15,10 +15,13 @@ from integrations.contact_integration_item import ContactIntegrationItem
 
 from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 
-# Credentials for hubspot Oauth connection
-CLIENT_ID='a30d2bd7-1cc9-44a8-9853-3e0736ded63b'
-# CLIENT_SECRET='8e30ebc4-44e8-4bdc-a0b2-da9f2cea766e'
-CLIENT_SECRET='8c447f0a-225b-4f1c-b259-47a9430925fc'
+# # Credentials for hubspot Oauth connection
+# CLIENT_ID='a30d2bd7-1cc9-44a8-9853-3e0736ded63b'
+# # CLIENT_SECRET='8e30ebc4-44e8-4bdc-a0b2-da9f2cea766e'
+# CLIENT_SECRET='8c447f0a-225b-4f1c-b259-47a9430925fc'
+CLIENT_ID="xxx"
+CLIENT_SECRET="xxx"
+
 
 from fastapi import Request
 
